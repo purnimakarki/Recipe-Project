@@ -1,0 +1,71 @@
+.rating {
+  margin: 0.5rem;
+}
+.rating svg {
+  color: rgb(255, 132, 17);
+}
+.rating-text {
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+}
+.product-title {
+  line-height: 1.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reviews h2 {
+  font-size: 24px;
+  border: 1px solid #ddd;
+  background-color: #f4f4f4;
+  padding: 12px;
+}
+
+.carousel-caption {
+  position: absolute;
+  width: 100%;
+  padding: 35px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*  createrecipe page*/
+
+.create-recipe-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.create-recipe-page form div {
+  margin-bottom: 1rem;
+}
+
+.create-recipe-page label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.create-recipe-page input,
+.create-recipe-page textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.create-recipe-page button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.create-recipe-page button:hover {
+  background-color: #0056b3;
+}
